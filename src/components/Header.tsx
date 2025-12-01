@@ -49,6 +49,12 @@ function Header() {
             >
               About us
             </Link>
+            <Link
+              to="/policy"
+              className="font-lexend text-sm text-foreground hover:text-brand transition-colors"
+            >
+              Policy
+            </Link>
             <button className="font-lexend text-sm text-foreground hover:bg-brand hover:text-white rounded-lg px-4 py-1 transition-colors">
               Login
             </button>
