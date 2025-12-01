@@ -1,46 +1,111 @@
 /* src/index.css */
 
-@import "tailwindcss";
-@import "tw-animate-css"; /* optional, if you use the animation library */
+/* @import "tailwindcss";
+@import "tw-animate-css"; 
 
 @custom-variant dark (&:is(.dark *));
 
-/* Light theme tokens */
 :root {
   --radius: 0.625rem;
   --background: #ffffff;
   --foreground: #000000;
   --primary: #10B981;
   --primary-foreground: #ffffff;
-  /* Add more custom tokens as needed */
 }
 
-/* Dark theme tokens */
 .dark {
   --background: #1e1e1e;
   --foreground: #f3f3f3;
   --primary: #22C55E;
   --primary-foreground: #000000;
-  /* Add more dark overrides here */
 }
 
-body{background-color: #1e1e1e;}
 
-/* Map tokens into Tailwind theme variable namespaces */
 @theme inline {
   --radius-md: var(--radius);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
-  /* Extend with whatever theme variables you need */
 }
 
-/* Base layer styles */
 @layer base {
   body {
     @apply bg-background text-foreground;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+} */
+
+
+/* src/index.css */
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* --------------------------------------------------
+   Fonts (Sora, Lexend, Inter)
+-------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,800;1,800&family=Lexend:wght@400;500&family=Sora:wght@400;600;700&display=swap");
+
+/* Dark variant helper (Tailwind v4) */
+@custom-variant dark (&:is(.dark *));
+
+/* --------------------------------------------------
+   Design tokens as CSS variables
+-------------------------------------------------- */
+:root {
+  --radius: 0.625rem;
+
+  --background: #ffffff;
+  --foreground: #000000;
+
+  --brand: #E52520;
+  --muted: #A4A4A4;
+  --footer: #D9D9D9;
+}
+
+.dark {
+  --background: #050505;
+  --foreground: #f9fafb;
+
+  --brand: #E52520;
+  --muted: #9ca3af;
+  --footer: #9ca3af;
+}
+
+/* --------------------------------------------------
+   Map tokens into Tailwind theme variables
+   (gives us bg-brand, text-muted, font-sora, etc.)
+-------------------------------------------------- */
+@theme inline {
+  --radius-md: var(--radius);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--brand);
+  --color-muted: var(--muted);
+  --color-footer: var(--footer);
+
+  --font-sora: "Sora", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --font-lexend: "Lexend", system-ui, sans-serif;
+  --font-inter: "Inter", system-ui, sans-serif;
+}
+
+/* --------------------------------------------------
+   Base styles
+-------------------------------------------------- */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sora);
+    -webkit-font-smoothing: antialiased;
     line-height: 1.5;
     font-weight: 400;
   }
