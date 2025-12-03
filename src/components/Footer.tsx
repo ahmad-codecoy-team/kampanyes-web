@@ -7,7 +7,7 @@ function Footer() {
     <footer className="bg-black text-footer">
       <div className="max-w-6xl mx-auto px-4 lg:px-8 pt-10 pb-8 lg:pb-12">
         {/* Top content */}
-        <div className="grid gap-10 md:grid-cols-2 items-start">
+        <div className="grid gap-10 md:grid-cols-2 items-start md:w-[70%]">
           {/* Brand + description */}
           <div>
             <div className="inline-flex items-center bg-brand px-5 py-3">

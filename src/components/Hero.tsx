@@ -1,20 +1,20 @@
-// // src/components/Hero.tsx
 // import heroImage from "@/assets/hero.png";
 // import StoreButtons from "@/components/StoreButtons";
 
 // function Hero() {
 //   return (
-//     <section className="max-w-6xl mx-auto px-4 lg:px-8 pt-24 pb-16 lg:pb-20">
-//       <div className="grid gap-10 lg:gap-14 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] items-center">
+//     <section className="max-w-6xl mx-auto px-4 lg:px-8 py-16 sm:py-20 ">
+//       <div className="grid items-center gap-10 lg:gap-16 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)]">
 //         {/* Left: copy */}
-//         <div>
-//           <h1 className="text-3xl md:text-4xl lg:text-[2.4rem] font-semibold leading-tight tracking-[0.01em]">
+//         <div className="max-w-xl mx-auto lg:mx-0 text-center md:text-left">
+//           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-foreground">
 //             Discover the best Deals in
-//             <br /> One Place
+//             <br />
+//             <span className="whitespace-nowrap">One Place</span>
 //           </h1>
 
-//           <p className="mt-4 text-base md:text-lg lg:text-xl text-muted max-w-xl leading-relaxed">
-//             Find new folders, exclusive discounts, and your favorite stores —
+//           <p className="mt-4 text-base sm:text-lg lg:text-xl text-muted leading-relaxed">
+//             Find new folders, exclusive discounts, and your favorite stores—
 //             instantly.
 //           </p>
 
@@ -26,7 +26,7 @@
 //           <img
 //             src={heroImage}
 //             alt="KampanYES app mockup"
-//             className="w-full max-w-sm md:max-w-md lg:max-w-md xl:max-w-lg max-h-[520px] object-contain"
+//             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg max-h-[520px] object-contain"
 //           />
 //         </div>
 //       </div>
@@ -37,22 +37,25 @@
 // export default Hero;
 
 
+// src/components/Hero.tsx
 import heroImage from "@/assets/hero.png";
 import StoreButtons from "@/components/StoreButtons";
 
 function Hero() {
   return (
-    <section className="max-w-6xl mx-auto px-4 lg:px-8 pt-24 pb-16 lg:pb-20">
-      <div className="grid gap-10 lg:gap-14 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] items-center">
+    <section className="max-w-6xl mx-auto px-4 lg:px-8 pt-4 sm:pt-6 pb-16 sm:pb-20">
+      <div className="grid items-center gap-8 lg:gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)]">
         {/* Left: copy */}
-        <div>
-          <h1 className="text-3xl md:text-4xl lg:text-[2.5rem] font-bold leading-tight tracking-tight text-foreground">
+        <div className="max-w-xl mx-auto lg:mx-0 text-center md:text-left">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-foreground">
             Discover the best Deals in
-            <br /> One Place
+            <br />
+            <span className="whitespace-nowrap">One Place</span>
           </h1>
 
-          <p className="mt-4 text-base md:text-lg lg:text-xl text-muted leading-relaxed max-w-xl">
-            Find new folders, exclusive discounts, and your favorite stores—instantly.
+          <p className="mt-4 text-base sm:text-lg lg:text-xl text-muted leading-relaxed">
+            Find new folders, exclusive discounts, and your favorite stores—
+            instantly.
           </p>
 
           <StoreButtons />
@@ -63,7 +66,7 @@ function Hero() {
           <img
             src={heroImage}
             alt="KampanYES app mockup"
-            className="w-full max-w-sm md:max-w-md lg:max-w-md xl:max-w-lg max-h-[520px] object-contain"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md max-h-[420px] object-contain"
           />
         </div>
       </div>

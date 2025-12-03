@@ -1,30 +1,81 @@
-// src/components/StoreButtons.tsx
-import { Apple, Play } from "lucide-react";
+// // src/components/StoreButtons.tsx
+
+// import appleBadge from "@/assets/apple-badge.svg";
+// // import playBadge from "@/assets/playstore-badge.svg";
+// import playBadge from "@/assets/English.svg";
+
+// function StoreButtons() {
+//   return (
+//     <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
+//       {/* App Store */}
+//       <a
+//         href="#"
+//         className="inline-flex w-full sm:w-auto items-center justify-center rounded-md transition-transform hover:scale-[1.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+//       >
+//         <img
+//           src={appleBadge}
+//           alt="Download on the App Store"
+//           className="w-48 sm:w-52 h-auto"
+//           draggable={false}
+//         />
+//       </a>
+
+//       {/* Google Play */}
+//       <a
+//         href="#"
+//         className="inline-flex w-full sm:w-auto items-center justify-center rounded-md transition-transform hover:scale-[1.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+//       >
+//         <img
+//           src={playBadge}
+//           alt="Get it on Google Play"
+//           className="w-48 sm:w-52 h-auto"
+//           draggable={false}
+//         />
+//       </a>
+//     </div>
+//   );
+// }
+
+// export default StoreButtons;
+
+
+import appleBadge from "@/assets/apple-badge.svg";
+import playBadge from "@/assets/English.svg";
+
+const linkBase =
+  "inline-flex w-full sm:w-auto items-center justify-center rounded-md " +
+  "transition-transform hover:scale-[1.03] focus-visible:outline-none " +
+  "focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2";
+
+const badgeBox =
+  "w-56 h-16 flex items-center justify-center overflow-hidden";
 
 function StoreButtons() {
   return (
-    <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-10">
+    <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
       {/* App Store */}
-      <button className="inline-flex items-center gap-3 rounded-md bg-black text-white px-6 py-4 shadow-[0_4px_12px_rgba(0,0,0,0.25)]">
-        <div className="flex h-10 w-10 items-center justify-center">
-          <Apple className="h-8 w-8" strokeWidth={1.7} />
+      <a href="#" className={linkBase}>
+        <div className={badgeBox}>
+          <img
+            src={appleBadge}
+            alt="Download on the App Store"
+            className="w-full h-full object-contain scale-[1.18]" // <- tweak
+            draggable={false}
+          />
         </div>
-        <span className="text-left text-sm leading-tight">
-          <span className="block text-[0.7rem]">Download on the</span>
-          <span className="block text-base font-semibold">App Store</span>
-        </span>
-      </button>
+      </a>
 
       {/* Google Play */}
-      <button className="inline-flex items-center gap-3 rounded-md bg-black text-white px-6 py-4 shadow-[0_4px_12px_rgba(0,0,0,0.25)]">
-        <div className="flex h-10 w-10 items-center justify-center">
-          <Play className="h-8 w-8" strokeWidth={1.7} />
+      <a href="#" className={linkBase}>
+        <div className={badgeBox}>
+          <img
+            src={playBadge}
+            alt="Get it on Google Play"
+            className="w-full h-full object-contain"
+            draggable={false}
+          />
         </div>
-        <span className="text-left text-sm leading-tight uppercase">
-          <span className="block text-[0.7rem] normal-case">Get it on</span>
-          <span className="block text-base font-semibold">Google Play</span>
-        </span>
-      </button>
+      </a>
     </div>
   );
 }
