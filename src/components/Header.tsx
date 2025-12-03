@@ -4,21 +4,21 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 function Header() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  // const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 8);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setIsScrolled(window.scrollY > 8);
+  //   };
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
+  //   window.addEventListener("scroll", handleScroll, { passive: true });
+  //   handleScroll();
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   // Close mobile menu when resizing to desktop
   useEffect(() => {
@@ -39,12 +39,16 @@ function Header() {
   ];
 
   return (
+    // <header
+    //   className={`fixed inset-x-0 top-0 z-50 border-b bg-white/70 backdrop-blur-md transition-all ${
+    //     isScrolled
+    //       ? "border-slate-200/80 shadow-[0_1px_12px_rgba(15,23,42,0.15)]"
+    //       : "border-slate-200/40 shadow-none"
+
+    //   }`}
+    // >
     <header
-      className={`fixed inset-x-0 top-0 z-50 border-b bg-white/70 backdrop-blur-md transition-all ${
-        isScrolled
-          ? "border-slate-200/80 shadow-[0_1px_12px_rgba(15,23,42,0.15)]"
-          : "border-transparent shadow-none"
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 border-b bg-white/70 backdrop-blur-md transition-all border-slate-200/80 shadow-[0_1px_12px_rgba(15,23,42,0.15)] `}
     >
       <div className="max-w-6xl mx-auto px-4 lg:px-8">
         <div className="flex h-16 md:h-20 items-center justify-between gap-4 relative">
