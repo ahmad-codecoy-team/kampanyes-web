@@ -7,6 +7,12 @@
   },
   "store_buttons": {
     "app_store_alt": "Download on the App Store",
-    "play_store_alt": "Get it on Google Play"
+    "play_store_alt": "Get it on Google Play",
+    "app_store_logo_alt": "Apple App Store logo",
+    "app_store_top": "Download on the",
+    "app_store_bottom": "App Store",
+    "play_store_logo_alt": "Google Play logo",
+    "play_store_top": "Get it on",
+    "play_store_bottom": "Google Play"
   }
 }

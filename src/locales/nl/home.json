@@ -7,6 +7,12 @@
   },
   "store_buttons": {
     "app_store_alt": "Download in de App Store",
-    "play_store_alt": "Download via Google Play"
+    "play_store_alt": "Download via Google Play",
+    "app_store_logo_alt": "Apple App Store-logo",
+    "app_store_top": "Download in de",
+    "app_store_bottom": "App Store",
+    "play_store_logo_alt": "Google Play-logo",
+    "play_store_top": "Download via",
+    "play_store_bottom": "Google Play"
   }
 }

@@ -2,7 +2,8 @@
   "nav": {
     "help": "Help",
     "about": "Over ons",
-    "policy": "Beleid"
+    "policy": "Beleid",
+    "menu":"menu"
   },
   "footer": {
     "brand_description": "Ontdek overzichtelijke folders, volg je favoriete winkels en mis nooit meer nieuwe updates of tijdelijke kortingen.",
@@ -10,6 +11,9 @@
     "legal_about": "Over ons",
     "legal_terms": "Voorwaarden",
     "legal_policy": "Beleid",
+    "help_title": "Hulp en service",
+    "help_contact": "Contact",
+    "help_email": "info@kampanyes.com",
     "copyright": "{{year}} KampanYES. Alle rechten voorbehouden."
   },
   "language": {

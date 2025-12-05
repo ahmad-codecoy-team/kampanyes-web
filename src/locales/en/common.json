@@ -2,7 +2,8 @@
   "nav": {
     "help": "Help",
     "about": "About us",
-    "policy": "Policy"
+    "policy": "Policy",
+    "menu":"Menu"
   },
   "footer": {
     "brand_description": "Explore organized folders, follow your favorite stores, and never miss new updates or limited-time discounts again.",
@@ -10,6 +11,9 @@
     "legal_about": "About Us",
     "legal_terms": "Terms",
     "legal_policy": "Policy",
+    "help_title": "Help and Services",
+    "help_contact": "Contact",
+    "help_email": "info@kampanyes.com",
     "copyright": "{{year}} KampanYES. All rights reserved."
   },
   "language": {

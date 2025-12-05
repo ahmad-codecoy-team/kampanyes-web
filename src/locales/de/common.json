@@ -2,7 +2,8 @@
   "nav": {
     "help": "Hilfe",
     "about": "Über uns",
-    "policy": "Richtlinie"
+    "policy": "Richtlinie",
+    "menu":"Speisekarte"
   },
   "footer": {
     "brand_description": "Entdecken Sie übersichtliche Prospekte, folgen Sie Ihren Lieblingsgeschäften und verpassen Sie keine neuen Updates oder zeitlich begrenzten Rabatte mehr.",
@@ -10,6 +11,9 @@
     "legal_about": "Über uns",
     "legal_terms": "Bedingungen",
     "legal_policy": "Richtlinie",
+    "help_title": "Hilfe und Service",
+    "help_contact": "Kontakt",
+    "help_email": "info@kampanyes.com",
     "copyright": "{{year}} KampanYES. Alle Rechte vorbehalten."
   },
   "language": {

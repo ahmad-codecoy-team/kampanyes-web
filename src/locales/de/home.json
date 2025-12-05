@@ -1,3 +1,4 @@
+
 {
   "hero": {
     "title_line1": "Entdecken Sie die besten Angebote",
@@ -7,6 +8,12 @@
   },
   "store_buttons": {
     "app_store_alt": "Im App Store herunterladen",
-    "play_store_alt": "Bei Google Play erhalten"
+    "play_store_alt": "Bei Google Play erhalten",
+    "app_store_logo_alt": "Apple App Store Logo",
+    "app_store_top": "Laden im",
+    "app_store_bottom": "App Store",
+    "play_store_logo_alt": "Google Play Logo",
+    "play_store_top": "Jetzt bei",
+    "play_store_bottom": "Google Play"
   }
 }

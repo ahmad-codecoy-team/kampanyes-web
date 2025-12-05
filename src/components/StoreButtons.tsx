@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import appleBadge from "@/assets/apple-badge.svg";
-import playBadge from "@/assets/English.svg";
+import appleLogo from "@/assets/apple-logo-svgrepo-com.svg";
+import googlePlayLogo from "@/assets/google-play-svgrepo-com.svg";
 
 const linkBase =
   "inline-flex w-full sm:w-auto items-center justify-center rounded-md " +
@@ -8,7 +8,8 @@ const linkBase =
   "focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2";
 
 const badgeBox =
-  "w-56 h-16 flex items-center justify-center overflow-hidden";
+  "w-56 h-16 flex items-center justify-start overflow-hidden " +
+  "rounded-md bg-black text-white px-4 gap-2.5";
 
 function StoreButtons() {
   const { t } = useTranslation("home");
@@ -19,11 +20,19 @@ function StoreButtons() {
       <a href="#" className={linkBase}>
         <div className={badgeBox}>
           <img
-            src={appleBadge}
-            alt={t("store_buttons.app_store_alt")}
-            className="w-full h-full object-contain scale-[1.18]"
+            src={appleLogo}
+            alt={t("store_buttons.app_store_logo_alt")}
+            className="w-9 h-9 flex-shrink-0"
             draggable={false}
           />
+          <div className="flex flex-col items-start leading-none">
+            <span className="text-[10px] uppercase tracking-[0.12em]">
+              {t("store_buttons.app_store_top")}
+            </span>
+            <span className="text-base font-semibold -mt-0.5">
+              {t("store_buttons.app_store_bottom")}
+            </span>
+          </div>
         </div>
       </a>
 
@@ -31,11 +40,19 @@ function StoreButtons() {
       <a href="#" className={linkBase}>
         <div className={badgeBox}>
           <img
-            src={playBadge}
-            alt={t("store_buttons.play_store_alt")}
-            className="w-full h-full object-contain"
+            src={googlePlayLogo}
+            alt={t("store_buttons.play_store_logo_alt")}
+            className="w-9 h-9 flex-shrink-0"
             draggable={false}
           />
+          <div className="flex flex-col items-start leading-none">
+            <span className="text-[10px] uppercase tracking-[0.12em]">
+              {t("store_buttons.play_store_top")}
+            </span>
+            <span className="text-base font-semibold -mt-0.5">
+              {t("store_buttons.play_store_bottom")}
+            </span>
+          </div>
         </div>
       </a>
     </div>

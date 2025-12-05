@@ -66,7 +66,7 @@ function Header() {
               aria-label="Toggle navigation"
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}
             >
-              <span>{t("nav.help") /* or just "Menu" if you add a key */}</span>
+              <span>{t("nav.menu") /* or just "Menu" if you add a key */}</span>
               {isMobileMenuOpen ? (
                 <X className="h-4 w-4 text-brand" />
               ) : (
