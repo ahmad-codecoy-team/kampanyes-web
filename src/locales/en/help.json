@@ -1,0 +1,38 @@
+{
+  "title": "Help Center",
+  "sections": {
+    "getting_started": {
+      "title": "Getting Started",
+      "p1": "Welcome to KampanYES! Our app helps you discover the best deals from your favorite stores all in one place.",
+      "p2": "Download the app from the App Store or Google Play to get started. Create an account to personalize your experience and never miss exclusive discounts."
+    },
+    "how_to_use": {
+      "title": "How to Use KampanYES",
+      "steps": {
+        "step1": "Browse organized folders to find deals from various stores and categories",
+        "step2": "Follow your favorite stores to get notified about new campaigns",
+        "step3": "Save deals you're interested in for quick access later",
+        "step4": "Share great deals with friends and family"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "title": "Is KampanYES free to use?",
+        "body": "Yes! KampanYES is completely free to download and use. We don't charge any subscription fees."
+      },
+      "q2": {
+        "title": "How often are deals updated?",
+        "body": "Deals are updated in real-time as stores publish new campaigns. You'll always see the latest offers available."
+      },
+      "q3": {
+        "title": "Can I use KampanYES offline?",
+        "body": "You can view previously loaded content offline, but you'll need an internet connection to see the latest deals and updates."
+      }
+    },
+    "more_help": {
+      "title": "Need More Help?",
+      "p1": "If you have questions that aren't answered here, please contact our support team at"
+    }
+  }
+}

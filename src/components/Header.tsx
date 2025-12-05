@@ -1,26 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import logo from "@/assets/logo.png";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 function Header() {
-  // const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { t } = useTranslation("common");
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     setIsScrolled(window.scrollY > 8);
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll, { passive: true });
-  //   handleScroll();
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
-  // Close mobile menu when resizing to desktop
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
@@ -33,23 +21,13 @@ function Header() {
   }, []);
 
   const navItems = [
-    { label: "Help", to: "/help" },
-    { label: "About us", to: "/about" },
-    { label: "Policy", to: "/policy" },
+    { label: t("nav.help"), to: "/help" },
+    { label: t("nav.about"), to: "/about" },
+    { label: t("nav.policy"), to: "/policy" }
   ];
 
   return (
-    // <header
-    //   className={`fixed inset-x-0 top-0 z-50 border-b bg-white/70 backdrop-blur-md transition-all ${
-    //     isScrolled
-    //       ? "border-slate-200/80 shadow-[0_1px_12px_rgba(15,23,42,0.15)]"
-    //       : "border-slate-200/40 shadow-none"
-
-    //   }`}
-    // >
-    <header
-      className={`fixed inset-x-0 top-0 z-50 border-b bg-white/70 backdrop-blur-md transition-all border-slate-200/80 shadow-[0_1px_12px_rgba(15,23,42,0.15)] `}
-    >
+    <header className="fixed inset-x-0 top-0 z-50 border-b bg-white/70 backdrop-blur-md transition-all border-slate-200/80 shadow-[0_1px_12px_rgba(15,23,42,0.15)]">
       <div className="max-w-6xl mx-auto px-4 lg:px-8">
         <div className="flex h-16 md:h-20 items-center justify-between gap-4 relative">
           {/* Logo */}
@@ -73,6 +51,9 @@ function Header() {
                   {item.label}
                 </Link>
               ))}
+
+              {/* Language Switcher on the right */}
+              <LanguageSwitcher />
             </div>
           </nav>
 
@@ -85,7 +66,7 @@ function Header() {
               aria-label="Toggle navigation"
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}
             >
-              <span>Menu</span>
+              <span>{t("nav.help") /* or just "Menu" if you add a key */}</span>
               {isMobileMenuOpen ? (
                 <X className="h-4 w-4 text-brand" />
               ) : (
@@ -109,6 +90,11 @@ function Header() {
                       {item.label}
                     </Link>
                   ))}
+
+                  {/* Mobile: language switcher */}
+                  <div className="mt-2 border-t border-slate-100 pt-2">
+                    <LanguageSwitcher />
+                  </div>
                 </nav>
               </div>
             </div>

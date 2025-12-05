@@ -1,0 +1,86 @@
+{
+  "title": "Datenschutzerklärung",
+  "last_updated": "Zuletzt aktualisiert: {{date}}",
+  "sections": {
+    "introduction": {
+      "title": "1. Einleitung",
+      "body": "Willkommen bei KampanYES. Wir respektieren Ihre Privatsphäre und sind dem Schutz Ihrer personenbezogenen Daten verpflichtet. Diese Datenschutzerklärung informiert Sie darüber, wie wir Ihre personenbezogenen Daten in unserer App verarbeiten und welche Rechte Sie in Bezug auf Ihre Daten haben."
+    },
+    "information_we_collect": {
+      "title": "2. Welche Daten wir erheben",
+      "body": "Wir können verschiedene Arten personenbezogener Daten über Sie erfassen, nutzen, speichern und übermitteln. Diese haben wir wie folgt gruppiert:",
+      "items": {
+        "identity": {
+          "label": "Identitätsdaten:",
+          "text": "umfassen Vorname, Nachname, Benutzername oder eine ähnliche Kennung"
+        },
+        "contact": {
+          "label": "Kontaktdaten:",
+          "text": "umfassen E-Mail-Adresse und Telefonnummern"
+        },
+        "technical": {
+          "label": "Technische Daten:",
+          "text": "umfassen IP-Adresse, Browsertyp und -version, Zeitzoneneinstellung und Standort, Betriebssystem und Plattform"
+        },
+        "usage": {
+          "label": "Nutzungsdaten:",
+          "text": "umfassen Informationen darüber, wie Sie unsere App und unsere Dienste verwenden"
+        },
+        "marketing": {
+          "label": "Marketing- und Kommunikationsdaten:",
+          "text": "umfassen Ihre Präferenzen beim Erhalt von Marketingmitteilungen von uns und Ihre Kommunikationspräferenzen"
+        }
+      }
+    },
+    "how_we_use": {
+      "title": "3. Wie wir Ihre Daten verwenden",
+      "body": "Wir verwenden Ihre personenbezogenen Daten nur, wenn dies gesetzlich zulässig ist. In der Regel nutzen wir Ihre Daten in den folgenden Fällen:",
+      "items": {
+        "item1": "Um unseren Dienst bereitzustellen und aufrechtzuerhalten",
+        "item2": "Um Sie über Änderungen an unserem Dienst zu informieren",
+        "item3": "Um Ihnen die Teilnahme an interaktiven Funktionen zu ermöglichen, wenn Sie dies wünschen",
+        "item4": "Um Kundensupport bereitzustellen",
+        "item5": "Um Analysen und Auswertungen zu erstellen, damit wir unseren Dienst verbessern können",
+        "item6": "Um die Nutzung unseres Dienstes zu überwachen",
+        "item7": "Um technische Probleme zu erkennen, zu verhindern und zu beheben"
+      }
+    },
+    "data_security": {
+      "title": "4. Datensicherheit",
+      "body": "Wir haben geeignete Sicherheitsmaßnahmen getroffen, um zu verhindern, dass Ihre personenbezogenen Daten versehentlich verloren gehen, unbefugt verwendet oder darauf zugegriffen wird, verändert oder offengelegt werden. Außerdem beschränken wir den Zugriff auf Ihre personenbezogenen Daten auf diejenigen Mitarbeitenden, Dienstleister und sonstige Dritte, die diese Daten aus geschäftlichen Gründen benötigen."
+    },
+    "data_retention": {
+      "title": "5. Aufbewahrung der Daten",
+      "body": "Wir bewahren Ihre personenbezogenen Daten nur so lange auf, wie es zur Erfüllung der Zwecke, für die wir sie erhoben haben, erforderlich ist, einschließlich der Erfüllung gesetzlicher, buchhalterischer oder berichtspflichtiger Anforderungen."
+    },
+    "your_rights": {
+      "title": "6. Ihre Rechte",
+      "body": "Unter bestimmten Umständen haben Sie nach den Datenschutzgesetzen Rechte in Bezug auf Ihre personenbezogenen Daten. Dazu gehören das Recht:",
+      "items": {
+        "item1": "Auskunft über Ihre personenbezogenen Daten zu verlangen",
+        "item2": "Berichtigung Ihrer personenbezogenen Daten zu verlangen",
+        "item3": "Löschung Ihrer personenbezogenen Daten zu verlangen",
+        "item4": "der Verarbeitung Ihrer personenbezogenen Daten zu widersprechen",
+        "item5": "die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen",
+        "item6": "die Übertragung Ihrer personenbezogenen Daten zu verlangen",
+        "item7": "Ihre Einwilligung zu widerrufen"
+      }
+    },
+    "third_party_links": {
+      "title": "7. Links zu Dritten",
+      "body": "Unsere App kann Links zu Websites, Plug-ins und Anwendungen Dritter enthalten. Wenn Sie auf diese Links klicken oder diese Verbindungen aktivieren, können Dritte Daten über Sie erheben oder mit Ihnen teilen. Wir haben keine Kontrolle über diese Websites Dritter und sind nicht für deren Datenschutzerklärungen verantwortlich."
+    },
+    "cookies": {
+      "title": "8. Cookies",
+      "body": "Wir verwenden Cookies und ähnliche Tracking-Technologien, um Aktivitäten in unserem Dienst zu verfolgen und bestimmte Informationen zu speichern. Cookies sind kleine Dateien, die eine anonyme eindeutige Kennung enthalten können."
+    },
+    "changes": {
+      "title": "9. Änderungen dieser Datenschutzerklärung",
+      "body": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Über Änderungen informieren wir, indem wir die neue Version auf dieser Seite veröffentlichen und das Datum \"Zuletzt aktualisiert\" oben in dieser Erklärung anpassen."
+    },
+    "contact": {
+      "title": "10. Kontakt",
+      "body": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter"
+    }
+  }
+}

@@ -1,7 +1,10 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { useTranslation } from "react-i18next";
 
 function HelpPage() {
+  const { t } = useTranslation("help");
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
@@ -9,67 +12,73 @@ function HelpPage() {
       <main className="flex-1 pt-24">
         <div className="max-w-4xl mx-auto px-4 lg:px-8 py-12">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Help Center
+            {t("title")}
           </h1>
 
           <div className="space-y-8">
             <section>
               <h2 className="text-2xl font-semibold text-foreground mb-4">
-                Getting Started
+                {t("sections.getting_started.title")}
               </h2>
               <p className="text-base text-muted leading-relaxed mb-4">
-                Welcome to KampanYES! Our app helps you discover the best deals from your favorite stores all in one place.
+                {t("sections.getting_started.p1")}
               </p>
               <p className="text-base text-muted leading-relaxed">
-                Download the app from the App Store or Google Play to get started. Create an account to personalize your experience and never miss exclusive discounts.
+                {t("sections.getting_started.p2")}
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-foreground mb-4">
-                How to Use KampanYES
+                {t("sections.how_to_use.title")}
               </h2>
               <ul className="space-y-3 text-base text-muted">
                 <li className="flex gap-3">
                   <span className="font-semibold text-brand">1.</span>
-                  <span>Browse organized folders to find deals from various stores and categories</span>
+                  <span>{t("sections.how_to_use.steps.step1")}</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="font-semibold text-brand">2.</span>
-                  <span>Follow your favorite stores to get notified about new campaigns</span>
+                  <span>{t("sections.how_to_use.steps.step2")}</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="font-semibold text-brand">3.</span>
-                  <span>Save deals you're interested in for quick access later</span>
+                  <span>{t("sections.how_to_use.steps.step3")}</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="font-semibold text-brand">4.</span>
-                  <span>Share great deals with friends and family</span>
+                  <span>{t("sections.how_to_use.steps.step4")}</span>
                 </li>
               </ul>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-foreground mb-4">
-                Frequently Asked Questions
+                {t("sections.faq.title")}
               </h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="font-semibold text-foreground mb-2">Is KampanYES free to use?</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    {t("sections.faq.q1.title")}
+                  </h3>
                   <p className="text-base text-muted leading-relaxed">
-                    Yes! KampanYES is completely free to download and use. We don't charge any subscription fees.
+                    {t("sections.faq.q1.body")}
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-2">How often are deals updated?</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    {t("sections.faq.q2.title")}
+                  </h3>
                   <p className="text-base text-muted leading-relaxed">
-                    Deals are updated in real-time as stores publish new campaigns. You'll always see the latest offers available.
+                    {t("sections.faq.q2.body")}
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-2">Can I use KampanYES offline?</h3>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    {t("sections.faq.q3.title")}
+                  </h3>
                   <p className="text-base text-muted leading-relaxed">
-                    You can view previously loaded content offline, but you'll need an internet connection to see the latest deals and updates.
+                    {t("sections.faq.q3.body")}
                   </p>
                 </div>
               </div>
@@ -77,12 +86,15 @@ function HelpPage() {
 
             <section>
               <h2 className="text-2xl font-semibold text-foreground mb-4">
-                Need More Help?
+                {t("sections.more_help.title")}
               </h2>
               <p className="text-base text-muted leading-relaxed">
-                If you have questions that aren't answered here, please contact our support team at{" "}
-                <a href="mailto:support@kampanyes.com" className="text-brand hover:underline">
-                  support@kampanyes.com
+                {t("sections.more_help.p1")}{" "}
+                <a
+                  href="mailto:support@kampanyes.com"
+                  className="text-brand hover:underline"
+                >
+                   info@kampanyes.com
                 </a>
               </p>
             </section>

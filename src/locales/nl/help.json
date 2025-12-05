@@ -1,0 +1,38 @@
+{
+  "title": "Helpcentrum",
+  "sections": {
+    "getting_started": {
+      "title": "Eerste stappen",
+      "p1": "Welkom bij KampanYES! Onze app helpt je de beste deals van je favoriete winkels op één plek te ontdekken.",
+      "p2": "Download de app uit de App Store of via Google Play om te beginnen. Maak een account aan om je ervaring te personaliseren en nooit meer exclusieve kortingen te missen."
+    },
+    "how_to_use": {
+      "title": "KampanYES gebruiken",
+      "steps": {
+        "step1": "Blader door geordende mappen om deals uit verschillende winkels en categorieën te vinden",
+        "step2": "Volg je favoriete winkels om meldingen te krijgen over nieuwe campagnes",
+        "step3": "Sla interessante deals op zodat je ze later snel terugvindt",
+        "step4": "Deel goede deals met vrienden en familie"
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "q1": {
+        "title": "Is KampanYES gratis te gebruiken?",
+        "body": "Ja! KampanYES is volledig gratis te downloaden en te gebruiken. We rekenen geen abonnementskosten."
+      },
+      "q2": {
+        "title": "Hoe vaak worden deals bijgewerkt?",
+        "body": "Deals worden in realtime bijgewerkt zodra winkels nieuwe campagnes publiceren. Je ziet altijd de meest recente aanbiedingen."
+      },
+      "q3": {
+        "title": "Kan ik KampanYES offline gebruiken?",
+        "body": "Je kunt eerder geladen content offline bekijken, maar je hebt een internetverbinding nodig om de nieuwste deals en updates te zien."
+      }
+    },
+    "more_help": {
+      "title": "Meer hulp nodig?",
+      "p1": "Als je vraag hier niet beantwoord wordt, neem dan contact op met ons supportteam via"
+    }
+  }
+}

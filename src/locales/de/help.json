@@ -1,0 +1,38 @@
+{
+  "title": "Hilfe-Center",
+  "sections": {
+    "getting_started": {
+      "title": "Erste Schritte",
+      "p1": "Willkommen bei KampanYES! Unsere App hilft Ihnen, die besten Angebote Ihrer Lieblingsgeschäfte an einem Ort zu entdecken.",
+      "p2": "Laden Sie die App aus dem App Store oder von Google Play herunter, um loszulegen. Erstellen Sie ein Konto, um Ihr Erlebnis zu personalisieren und keine exklusiven Rabatte mehr zu verpassen."
+    },
+    "how_to_use": {
+      "title": "Wie Sie KampanYES nutzen",
+      "steps": {
+        "step1": "Durchstöbern Sie organisierte Ordner, um Angebote aus verschiedenen Geschäften und Kategorien zu finden",
+        "step2": "Folgen Sie Ihren Lieblingsgeschäften, um über neue Kampagnen informiert zu werden",
+        "step3": "Speichern Sie interessante Angebote, um später schnell darauf zugreifen zu können",
+        "step4": "Teilen Sie tolle Angebote mit Freunden und Familie"
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": {
+        "title": "Ist KampanYES kostenlos?",
+        "body": "Ja! KampanYES kann kostenlos heruntergeladen und genutzt werden. Wir erheben keine Abonnementgebühren."
+      },
+      "q2": {
+        "title": "Wie oft werden Angebote aktualisiert?",
+        "body": "Angebote werden in Echtzeit aktualisiert, sobald Geschäfte neue Kampagnen veröffentlichen. Sie sehen immer die neuesten verfügbaren Aktionen."
+      },
+      "q3": {
+        "title": "Kann ich KampanYES offline nutzen?",
+        "body": "Sie können bereits geladene Inhalte offline ansehen, benötigen aber eine Internetverbindung, um die neuesten Angebote und Updates zu sehen."
+      }
+    },
+    "more_help": {
+      "title": "Brauchen Sie weitere Hilfe?",
+      "p1": "Wenn Ihre Frage hier nicht beantwortet wird, kontaktieren Sie bitte unser Support-Team unter"
+    }
+  }
+}

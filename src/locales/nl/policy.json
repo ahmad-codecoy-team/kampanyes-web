@@ -1,0 +1,86 @@
+{
+  "title": "Privacyverklaring",
+  "last_updated": "Laatst bijgewerkt: {{date}}",
+  "sections": {
+    "introduction": {
+      "title": "1. Inleiding",
+      "body": "Welkom bij KampanYES. Wij respecteren je privacy en zetten ons in voor de bescherming van je persoonsgegevens. Deze privacyverklaring legt uit hoe wij met je gegevens omgaan wanneer je onze app gebruikt en welke rechten je daarbij hebt."
+    },
+    "information_we_collect": {
+      "title": "2. Welke gegevens we verzamelen",
+      "body": "We kunnen verschillende soorten persoonsgegevens over je verzamelen, gebruiken, opslaan en doorgeven. Deze hebben we als volgt gegroepeerd:",
+      "items": {
+        "identity": {
+          "label": "Identiteitsgegevens:",
+          "text": "omvatten voornaam, achternaam, gebruikersnaam of een soortgelijke identificatie"
+        },
+        "contact": {
+          "label": "Contactgegevens:",
+          "text": "omvatten e-mailadres en telefoonnummers"
+        },
+        "technical": {
+          "label": "Technische gegevens:",
+          "text": "omvatten IP-adres, browsertype en -versie, tijdzone-instelling en locatie, besturingssysteem en platform"
+        },
+        "usage": {
+          "label": "Gebruiksgegevens:",
+          "text": "omvatten informatie over hoe je onze app en diensten gebruikt"
+        },
+        "marketing": {
+          "label": "Marketing- en communicatiegegevens:",
+          "text": "omvatten je voorkeuren voor het ontvangen van marketing van ons en je communicatievoorkeuren"
+        }
+      }
+    },
+    "how_we_use": {
+      "title": "3. Hoe we je gegevens gebruiken",
+      "body": "We gebruiken je persoonsgegevens alleen als de wet dat toestaat. Meestal gebruiken we je gegevens in de volgende situaties:",
+      "items": {
+        "item1": "Om onze Dienst te leveren en te onderhouden",
+        "item2": "Om je op de hoogte te brengen van wijzigingen in onze Dienst",
+        "item3": "Om je in staat te stellen deel te nemen aan interactieve functies wanneer je dat wilt",
+        "item4": "Om klantenondersteuning te bieden",
+        "item5": "Om analyses en inzichten te verzamelen zodat we onze Dienst kunnen verbeteren",
+        "item6": "Om het gebruik van onze Dienst te monitoren",
+        "item7": "Om technische problemen te detecteren, te voorkomen en op te lossen"
+      }
+    },
+    "data_security": {
+      "title": "4. Gegevensbeveiliging",
+      "body": "We hebben passende beveiligingsmaatregelen getroffen om te voorkomen dat je persoonsgegevens per ongeluk verloren gaan, onrechtmatig worden gebruikt of onbevoegd worden ingezien, gewijzigd of openbaar gemaakt. Daarnaast beperken we de toegang tot je persoonsgegevens tot medewerkers en dienstverleners die deze gegevens nodig hebben voor hun werk."
+    },
+    "data_retention": {
+      "title": "5. Bewaartermijn",
+      "body": "We bewaren je persoonsgegevens alleen zolang als nodig is voor de doeleinden waarvoor we ze hebben verzameld, inclusief voor het voldoen aan wettelijke, boekhoudkundige of rapportageverplichtingen."
+    },
+    "your_rights": {
+      "title": "6. Jouw rechten",
+      "body": "Onder bepaalde omstandigheden heb je volgens de privacywetgeving rechten met betrekking tot je persoonsgegevens. Deze omvatten het recht om:",
+      "items": {
+        "item1": "Inzage te verzoeken in je persoonsgegevens",
+        "item2": "Rectificatie van je persoonsgegevens te vragen",
+        "item3": "Wissing van je persoonsgegevens te verzoeken",
+        "item4": "Bezwaar te maken tegen de verwerking van je persoonsgegevens",
+        "item5": "Beperking van de verwerking van je persoonsgegevens te vragen",
+        "item6": "Overdracht van je persoonsgegevens te verzoeken",
+        "item7": "Je toestemming in te trekken"
+      }
+    },
+    "third_party_links": {
+      "title": "7. Links van derden",
+      "body": "Onze app kan links bevatten naar websites, plug-ins en toepassingen van derden. Als je op deze links klikt of dergelijke verbindingen inschakelt, kunnen derden gegevens over je verzamelen of delen. Wij hebben geen controle over deze websites van derden en zijn niet verantwoordelijk voor hun privacyverklaringen."
+    },
+    "cookies": {
+      "title": "8. Cookies",
+      "body": "We gebruiken cookies en soortgelijke trackingtechnologieën om activiteiten binnen onze Dienst te volgen en bepaalde informatie op te slaan. Cookies zijn kleine bestanden die een anonieme unieke identificatie kunnen bevatten."
+    },
+    "changes": {
+      "title": "9. Wijzigingen in deze privacyverklaring",
+      "body": "We kunnen deze privacyverklaring van tijd tot tijd bijwerken. We informeren je over wijzigingen door de nieuwe versie op deze pagina te publiceren en de datum \"Laatst bijgewerkt\" bovenaan deze verklaring aan te passen."
+    },
+    "contact": {
+      "title": "10. Contact",
+      "body": "Als je vragen hebt over deze privacyverklaring, neem dan contact met ons op via"
+    }
+  }
+}

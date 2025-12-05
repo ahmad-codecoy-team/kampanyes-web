@@ -1,0 +1,8 @@
+{
+  "welcome": "Bienvenido a HeyInterests",
+  "tagline": "¡Tailwind CSS v4 está funcionando perfectamente!",
+  "buttons": {
+    "getStarted": "Comenzar",
+    "learnMore": "Saber Más"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Über KampanYES",
+  "sections": {
+    "mission": {
+      "title": "Unsere Mission",
+      "p1": "Bei KampanYES sind wir überzeugt, dass Einkaufen spannend und nicht überwältigend sein sollte. Unsere Mission ist es, Menschen dabei zu helfen, die besten Angebote ihrer Lieblingsgeschäfte ganz einfach an einem Ort zu entdecken.",
+      "p2": "Wir möchten Verbraucherinnen und Verbrauchern helfen, Zeit und Geld zu sparen, indem wir Werbekampagnen in leicht durchsuchbare Ordner organisieren, damit Sie kein großartiges Angebot mehr verpassen."
+    },
+    "what_we_do": {
+      "title": "Was wir tun",
+      "p1": "KampanYES bündelt Werbekampagnen, Sonderaktionen und exklusive Rabatte von einer Vielzahl von Händlern und Marken. Unsere Plattform organisiert diese Angebote in übersichtliche Ordner nach Kategorien, damit Sie schnell genau das finden, wonach Sie suchen.",
+      "p2": "Egal, ob Sie nach Mode-Schnäppchen, Elektronikrabatten oder Lebensmitteleinsparungen suchen – KampanYES bringt alle Angebote in einer benutzerfreundlichen App zusammen."
+    },
+    "why_choose": {
+      "title": "Warum KampanYES?",
+      "items": {
+        "organized_folders": {
+          "label": "Organisierte Ordner:",
+          "text": "Stöbern Sie nach Angeboten sortiert nach Kategorie, Geschäft oder Art"
+        },
+        "real_time_updates": {
+          "label": "Echtzeit-Updates:",
+          "text": "Erhalten Sie sofort Benachrichtigungen über neue Kampagnen"
+        },
+        "follow_favorites": {
+          "label": "Favoriten folgen:",
+          "text": "Behalten Sie Ihre bevorzugten Geschäfte im Blick und verpassen Sie keine Angebote"
+        },
+        "easy_sharing": {
+          "label": "Einfaches Teilen:",
+          "text": "Teilen Sie tolle Angebote sofort mit Freunden und Familie"
+        },
+        "free_use": {
+          "label": "Komplett kostenlos:",
+          "text": "Keine Abonnements, keine versteckten Gebühren"
+        }
+      }
+    },
+    "team": {
+      "title": "Unser Team",
+      "p1": "Wir sind ein engagiertes Team aus Entwicklerinnen, Designern und Schnäppchenjägern, die den Wert von cleverem Einkaufen verstehen. Wir arbeiten kontinuierlich daran, KampanYES zu verbessern und neue Funktionen hinzuzufügen, die Ihre Schnäppchensuche noch besser machen."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "p1": "Sie haben Fragen, Feedback oder Interesse an einer Partnerschaft? Wir freuen uns auf Ihre Nachricht!",
+      "p2": "Schreiben Sie uns an"
+    }
+  }
+}

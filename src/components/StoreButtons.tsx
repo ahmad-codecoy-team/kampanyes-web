@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import appleBadge from "@/assets/apple-badge.svg";
 import playBadge from "@/assets/English.svg";
 
@@ -10,6 +11,8 @@ const badgeBox =
   "w-56 h-16 flex items-center justify-center overflow-hidden";
 
 function StoreButtons() {
+  const { t } = useTranslation("home");
+
   return (
     <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
       {/* App Store */}
@@ -17,8 +20,8 @@ function StoreButtons() {
         <div className={badgeBox}>
           <img
             src={appleBadge}
-            alt="Download on the App Store"
-            className="w-full h-full object-contain scale-[1.18]" // <- tweak
+            alt={t("store_buttons.app_store_alt")}
+            className="w-full h-full object-contain scale-[1.18]"
             draggable={false}
           />
         </div>
@@ -29,7 +32,7 @@ function StoreButtons() {
         <div className={badgeBox}>
           <img
             src={playBadge}
-            alt="Get it on Google Play"
+            alt={t("store_buttons.play_store_alt")}
             className="w-full h-full object-contain"
             draggable={false}
           />

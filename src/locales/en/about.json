@@ -1,0 +1,49 @@
+{
+  "title": "About KampanYES",
+  "sections": {
+    "mission": {
+      "title": "Our Mission",
+      "p1": "At KampanYES, we believe shopping should be exciting, not overwhelming. Our mission is to make it easy for people to discover the best deals from their favorite stores, all in one convenient place.",
+      "p2": "We're passionate about helping consumers save money and time by organizing promotional campaigns into easy-to-browse folders, so you never miss out on a great deal again."
+    },
+    "what_we_do": {
+      "title": "What We Do",
+      "p1": "KampanYES aggregates promotional campaigns, special offers, and exclusive discounts from a wide variety of retailers and brands. Our platform organizes these deals into intuitive folders based on categories, making it simple to find exactly what you're looking for.",
+      "p2": "Whether you're hunting for fashion deals, electronics discounts, or grocery savings, KampanYES brings them all together in one user-friendly app."
+    },
+    "why_choose": {
+      "title": "Why Choose KampanYES?",
+      "items": {
+        "organized_folders": {
+          "label": "Organized folders:",
+          "text": "Browse deals by category, store, or type"
+        },
+        "real_time_updates": {
+          "label": "Real-time updates:",
+          "text": "Get instant notifications about new campaigns"
+        },
+        "follow_favorites": {
+          "label": "Follow favorites:",
+          "text": "Keep track of your preferred stores and never miss their offers"
+        },
+        "easy_sharing": {
+          "label": "Easy sharing:",
+          "text": "Share great deals with friends and family instantly"
+        },
+        "free_use": {
+          "label": "Completely free:",
+          "text": "No subscriptions, no hidden fees"
+        }
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "p1": "We're a dedicated team of developers, designers, and deal enthusiasts who understand the value of smart shopping. We're constantly working to improve KampanYES and add new features that make your deal-hunting experience even better."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "p1": "Have questions, feedback, or partnership inquiries? We'd love to hear from you!",
+      "p2": "Email us at"
+    }
+  }
+}

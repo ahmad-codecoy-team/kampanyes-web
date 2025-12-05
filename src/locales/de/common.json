@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "help": "Hilfe",
+    "about": "Über uns",
+    "policy": "Richtlinie"
+  },
+  "footer": {
+    "brand_description": "Entdecken Sie übersichtliche Prospekte, folgen Sie Ihren Lieblingsgeschäften und verpassen Sie keine neuen Updates oder zeitlich begrenzten Rabatte mehr.",
+    "legal_title": "Rechtliches",
+    "legal_about": "Über uns",
+    "legal_terms": "Bedingungen",
+    "legal_policy": "Richtlinie",
+    "copyright": "{{year}} KampanYES. Alle Rechte vorbehalten."
+  },
+  "language": {
+    "label": "Sprache",
+    "english": "Englisch",
+    "german": "Deutsch",
+    "dutch": "Niederländisch"
+  }
+}

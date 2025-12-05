@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "help": "Help",
+    "about": "About us",
+    "policy": "Policy"
+  },
+  "footer": {
+    "brand_description": "Explore organized folders, follow your favorite stores, and never miss new updates or limited-time discounts again.",
+    "legal_title": "Legal",
+    "legal_about": "About Us",
+    "legal_terms": "Terms",
+    "legal_policy": "Policy",
+    "copyright": "{{year}} KampanYES. All rights reserved."
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "german": "German",
+    "dutch": "Dutch"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Over KampanYES",
+  "sections": {
+    "mission": {
+      "title": "Onze missie",
+      "p1": "Bij KampanYES vinden we dat winkelen leuk en niet overweldigend moet zijn. Onze missie is om het mensen makkelijk te maken de beste deals van hun favoriete winkels op één handige plek te ontdekken.",
+      "p2": "We helpen consumenten graag tijd en geld te besparen door promotiecampagnes te organiseren in gemakkelijk door te bladeren mappen, zodat je nooit meer een goede deal mist."
+    },
+    "what_we_do": {
+      "title": "Wat we doen",
+      "p1": "KampanYES verzamelt promotiecampagnes, speciale acties en exclusieve kortingen van een breed scala aan retailers en merken. Ons platform ordent deze deals in overzichtelijke mappen per categorie, zodat je snel vindt wat je zoekt.",
+      "p2": "Of je nu op zoek bent naar modedeals, elektronica-aanbiedingen of besparingen op boodschappen – KampanYES brengt alles samen in één gebruiksvriendelijke app."
+    },
+    "why_choose": {
+      "title": "Waarom KampanYES?",
+      "items": {
+        "organized_folders": {
+          "label": "Geordende mappen:",
+          "text": "Blader door deals per categorie, winkel of type"
+        },
+        "real_time_updates": {
+          "label": "Realtime updates:",
+          "text": "Ontvang direct meldingen over nieuwe campagnes"
+        },
+        "follow_favorites": {
+          "label": "Favorieten volgen:",
+          "text": "Volg je favoriete winkels en mis hun aanbiedingen nooit meer"
+        },
+        "easy_sharing": {
+          "label": "Eenvoudig delen:",
+          "text": "Deel goede deals direct met vrienden en familie"
+        },
+        "free_use": {
+          "label": "Helemaal gratis:",
+          "text": "Geen abonnementen, geen verborgen kosten"
+        }
+      }
+    },
+    "team": {
+      "title": "Ons team",
+      "p1": "We zijn een toegewijd team van ontwikkelaars, designers en deal-liefhebbers die de waarde van slim winkelen begrijpen. We werken continu aan het verbeteren van KampanYES en het toevoegen van nieuwe functies die jouw zoektocht naar deals nog beter maken."
+    },
+    "contact": {
+      "title": "Neem contact op",
+      "p1": "Heb je vragen, feedback of interesse in een samenwerking? We horen graag van je!",
+      "p2": "Mail ons op"
+    }
+  }
+}

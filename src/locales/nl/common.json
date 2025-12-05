@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "help": "Help",
+    "about": "Over ons",
+    "policy": "Beleid"
+  },
+  "footer": {
+    "brand_description": "Ontdek overzichtelijke folders, volg je favoriete winkels en mis nooit meer nieuwe updates of tijdelijke kortingen.",
+    "legal_title": "Juridisch",
+    "legal_about": "Over ons",
+    "legal_terms": "Voorwaarden",
+    "legal_policy": "Beleid",
+    "copyright": "{{year}} KampanYES. Alle rechten voorbehouden."
+  },
+  "language": {
+    "label": "Taal",
+    "english": "Engels",
+    "german": "Duits",
+    "dutch": "Nederlands"
+  }
+}
