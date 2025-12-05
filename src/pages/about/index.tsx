@@ -9,7 +9,7 @@ function AboutPage() {
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
 
-      <main className="flex-1 pt-24">
+      <main className="flex-1 pt-8 sm:pt-12 md:pt-18">
         <div className="max-w-4xl mx-auto px-4 lg:px-8 py-12">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
             {t("title")}
