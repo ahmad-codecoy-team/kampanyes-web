@@ -117,7 +117,7 @@ function AboutPage() {
                   href="mailto:hello@kampanyes.com"
                   className="text-brand hover:underline"
                 >
-                  hello@kampanyes.com
+                   Company@kampanyes.com
                 </a>
               </p>
             </section>

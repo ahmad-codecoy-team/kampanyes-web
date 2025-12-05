@@ -21,5 +21,15 @@
     "english": "Engels",
     "german": "Duits",
     "dutch": "Nederlands"
+  },
+  
+  "contact": {
+    "title": "Neem contact op",
+    "name": "Naam",
+    "email": "E-mail",
+    "message": "Bericht",
+    "submit": "Verzenden"
   }
 }
+
+

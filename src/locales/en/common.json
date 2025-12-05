@@ -21,5 +21,15 @@
     "english": "English",
     "german": "German",
     "dutch": "Dutch"
+  },
+  
+  "contact": {
+    "title": "Contact us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
   }
+
+
 }

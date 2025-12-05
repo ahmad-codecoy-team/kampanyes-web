@@ -21,5 +21,15 @@
     "english": "Englisch",
     "german": "Deutsch",
     "dutch": "Niederländisch"
+  },
+  
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "submit": "Senden"
   }
+
+
 }
