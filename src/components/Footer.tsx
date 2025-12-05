@@ -3,6 +3,7 @@
 import { Copyright } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import logo from "@/assets/logo.png";
+import { Link } from "react-router";
 
 function Footer() {
   const { t } = useTranslation("common");
@@ -35,19 +36,19 @@ function Footer() {
             </h3>
             <ul className="space-y-1.5 text-xs md:text-sm">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/about" className="hover:text-white transition-colors">
                   {t("footer.legal_about")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/policy" className="hover:text-white transition-colors">
                   {t("footer.legal_terms")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/policy" className="hover:text-white transition-colors">
                   {t("footer.legal_policy")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

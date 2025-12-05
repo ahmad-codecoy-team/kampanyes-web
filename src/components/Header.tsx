@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router"; // ⬅️ add NavLink
 import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import logo from "@/assets/logo.png";
@@ -43,13 +43,20 @@ function Header() {
           <nav className="hidden md:flex items-center justify-end flex-1">
             <div className="flex items-center gap-6 rounded-full border border-brand/40 bg-white/90 px-6 py-2.5 shadow-sm">
               {navItems.map((item) => (
-                <Link
+                <NavLink
                   key={item.to}
                   to={item.to}
-                  className="font-lexend text-sm text-foreground hover:text-brand transition-colors"
+                  className={({ isActive }) =>
+                    [
+                      "font-lexend text-sm transition-colors",
+                      isActive
+                        ? "text-brand" // active state
+                        : "text-foreground hover:text-brand" // default + hover
+                    ].join(" ")
+                  }
                 >
                   {item.label}
-                </Link>
+                </NavLink>
               ))}
 
               {/* Language Switcher on the right */}
@@ -66,7 +73,7 @@ function Header() {
               aria-label="Toggle navigation"
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}
             >
-              <span>{t("nav.menu") /* or just "Menu" if you add a key */}</span>
+              <span>{t("nav.menu")}</span>
               {isMobileMenuOpen ? (
                 <X className="h-4 w-4 text-brand" />
               ) : (
@@ -81,14 +88,21 @@ function Header() {
               <div className="mx-1 rounded-2xl border border-slate-200 bg-white/95 shadow-lg shadow-slate-900/10">
                 <nav className="flex flex-col px-4 py-3 gap-1">
                   {navItems.map((item) => (
-                    <Link
+                    <NavLink
                       key={item.to}
                       to={item.to}
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="rounded-lg px-2 py-2 text-sm font-lexend text-foreground hover:bg-slate-50 hover:text-brand transition-colors"
+                      className={({ isActive }) =>
+                        [
+                          "rounded-lg px-2 py-2 text-sm font-lexend transition-colors",
+                          isActive
+                            ? "text-brand bg-slate-50" // active mobile
+                            : "text-foreground hover:bg-slate-50 hover:text-brand"
+                        ].join(" ")
+                      }
                     >
                       {item.label}
-                    </Link>
+                    </NavLink>
                   ))}
 
                   {/* Mobile: language switcher */}
