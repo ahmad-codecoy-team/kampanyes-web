@@ -81,6 +81,7 @@ jspm_packages/
 # Temporary folders
 tmp/
 temp/
+api-docs.md
 
 # OS generated files
 Thumbs.db

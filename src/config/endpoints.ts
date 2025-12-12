@@ -39,4 +39,10 @@ export const ENDPOINTS = {
     UPDATE: (id: string) => `/category/${id}`,
     DELETE: (id: string) => `/category/${id}`,
   },
+
+  CONTENT: {
+    ABOUT: "/about",
+    PRIVACY_POLICY: "/privacyPolicy",
+    TERMS_CONDITIONS: "/termAndCondition",
+  },
 };

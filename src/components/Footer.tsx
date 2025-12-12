@@ -46,7 +46,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/policy" className="hover:text-white transition-colors">
+                  <Link to="/terms" className="hover:text-white transition-colors">
                     {t("footer.legal_terms")}
                   </Link>
                 </li>

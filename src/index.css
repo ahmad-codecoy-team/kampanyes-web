@@ -69,3 +69,35 @@
     font-weight: 400;
   }
 }
+
+/* --------------------------------------------------
+   Custom styles for API HTML content
+-------------------------------------------------- */
+.content-html h2 {
+  @apply text-2xl font-semibold text-foreground mb-4;
+}
+
+.content-html h3 {
+  @apply text-xl font-semibold text-foreground mb-3;
+}
+
+.content-html p {
+  @apply text-base text-muted leading-relaxed mb-4;
+}
+
+.content-html span {
+  @apply text-muted;
+}
+
+.content-html a {
+  @apply text-brand hover:underline;
+}
+
+.content-html ul {
+  @apply space-y-2 ml-6;
+}
+
+.content-html li {
+  @apply text-base text-muted leading-relaxed;
+}
+

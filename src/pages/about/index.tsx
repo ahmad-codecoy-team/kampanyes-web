@@ -1,9 +1,33 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
+import { contentService } from "@/services/content/content.service";
+import type { ContentData } from "@/types/content";
 
 function AboutPage() {
-  const { t } = useTranslation("about");
+  const { t, i18n } = useTranslation("about");
+  const [content, setContent] = useState<ContentData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchAboutContent = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await contentService.getAbout();
+        setContent(response.data);
+      } catch (err) {
+        setError("Failed to load content. Please try again later.");
+        console.error("Error fetching about content:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchAboutContent();
+  }, [i18n.language]); // Refetch when language changes
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -15,113 +39,24 @@ function AboutPage() {
             {t("title")}
           </h1>
 
-          <div className="space-y-8">
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">
-                {t("sections.mission.title")}
-              </h2>
-              <p className="text-base text-muted leading-relaxed mb-4">
-                {t("sections.mission.p1")}
-              </p>
-              <p className="text-base text-muted leading-relaxed">
-                {t("sections.mission.p2")}
-              </p>
-            </section>
+          {loading && (
+            <div className="flex justify-center items-center py-12">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-brand"></div>
+            </div>
+          )}
 
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">
-                {t("sections.what_we_do.title")}
-              </h2>
-              <p className="text-base text-muted leading-relaxed mb-4">
-                {t("sections.what_we_do.p1")}
-              </p>
-              <p className="text-base text-muted leading-relaxed">
-                {t("sections.what_we_do.p2")}
-              </p>
-            </section>
+          {error && (
+            <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg">
+              {error}
+            </div>
+          )}
 
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">
-                {t("sections.why_choose.title")}
-              </h2>
-              <ul className="space-y-3 text-base text-muted">
-                <li className="flex gap-3">
-                  <span className="text-brand font-semibold">•</span>
-                  <span>
-                    <strong className="text-foreground">
-                      {t(
-                        "sections.why_choose.items.organized_folders.label"
-                      )}
-                    </strong>{" "}
-                    {t("sections.why_choose.items.organized_folders.text")}
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-brand font-semibold">•</span>
-                  <span>
-                    <strong className="text-foreground">
-                      {t("sections.why_choose.items.real_time_updates.label")}
-                    </strong>{" "}
-                    {t("sections.why_choose.items.real_time_updates.text")}
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-brand font-semibold">•</span>
-                  <span>
-                    <strong className="text-foreground">
-                      {t("sections.why_choose.items.follow_favorites.label")}
-                    </strong>{" "}
-                    {t("sections.why_choose.items.follow_favorites.text")}
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-brand font-semibold">•</span>
-                  <span>
-                    <strong className="text-foreground">
-                      {t("sections.why_choose.items.easy_sharing.label")}
-                    </strong>{" "}
-                    {t("sections.why_choose.items.easy_sharing.text")}
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-brand font-semibold">•</span>
-                  <span>
-                    <strong className="text-foreground">
-                      {t("sections.why_choose.items.free_use.label")}
-                    </strong>{" "}
-                    {t("sections.why_choose.items.free_use.text")}
-                  </span>
-                </li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">
-                {t("sections.team.title")}
-              </h2>
-              <p className="text-base text-muted leading-relaxed">
-                {t("sections.team.p1")}
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">
-                {t("sections.contact.title")}
-              </h2>
-              <p className="text-base text-muted leading-relaxed">
-                {t("sections.contact.p1")}
-              </p>
-              <p className="text-base text-muted leading-relaxed mt-4">
-                {t("sections.contact.p2")}{" "}
-                <a
-                  href="mailto:hello@kampanyes.com"
-                  className="text-brand hover:underline"
-                >
-                   Company@kampanyes.com
-                </a>
-              </p>
-            </section>
-          </div>
+          {!loading && !error && content && (
+            <div 
+              className="content-html space-y-8"
+              dangerouslySetInnerHTML={{ __html: content.content }}
+            />
+          )}
         </div>
       </main>
 

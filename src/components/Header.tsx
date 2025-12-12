@@ -23,6 +23,7 @@ function Header() {
   const navItems = [
     { label: t("nav.help"), to: "/help" },
     { label: t("nav.about"), to: "/about" },
+    { label: t("nav.terms"), to: "/terms" },
     { label: t("nav.policy"), to: "/policy" }
   ];
 

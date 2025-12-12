@@ -6,6 +6,7 @@ import axios, {
 } from "axios";
 import { env } from "@/config/env";
 import { toast } from "sonner";
+import i18n from "@/locales/config";
 
 const axiosInstance = axios.create({
   baseURL: env.API_URL,
@@ -25,6 +26,10 @@ axiosInstance.interceptors.request.use(
       config.headers = config.headers ?? {};
       config.headers.Authorization = `Bearer ${token}`;
     }
+
+    // Add language header for API translations
+    config.headers = config.headers ?? {};
+    config.headers["Accept-Language"] = i18n.language || "en";
 
     return config;
   },
